@@ -3,5 +3,4 @@
 *.npy
 *.pyc
 *cache*
-*.txt
 *.jpg
