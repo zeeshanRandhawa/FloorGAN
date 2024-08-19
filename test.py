@@ -289,7 +289,8 @@ def use_session_folder():
         
 
 if __name__ == '__main__':
-    main_minimized("D:/Floor generator/houseganpp_demo")    
+    # main_minimized("D:/Floor generator/houseganpp_demo")  
+    main((os.getcwd(), "public","test2"))  
     # if not os.path.exists(PUBLIC_DIR):
     #     os.makedirs(PUBLIC_DIR)
     
