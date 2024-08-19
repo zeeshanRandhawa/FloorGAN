@@ -1,0 +1,21 @@
+define user express greeting
+  "Hello!"
+  "Good afternoon!"
+
+define flow
+  user express greeting
+  bot express greeting
+  bot offer to help
+
+define bot express greeting
+  "Hello there!"
+
+define bot offer to help
+  "How can I help you today?"
+
+define user express insult
+  "You are stupid"
+
+define flow
+  user express insult
+  bot express calmly willingness to help
