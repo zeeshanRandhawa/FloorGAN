@@ -286,7 +286,10 @@ def use_session_folder():
     imposed_darauri = superimpose_image_to_datauri(image1, image2_path, x, y, scale_width, displayed_width, displayed_height)
 
     return jsonify(imposed_darauri)
-        
+
+@app.route('/test', methods=['GET'])
+def test_server():
+    return("Test running")
 
 if __name__ == '__main__':
     # main_minimized("D:/Floor generator/houseganpp_demo")  
