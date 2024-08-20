@@ -1,4 +1,4 @@
-D:/json/var1.json
-D:/json/var2.json
-D:/json/var3.json
-D:/json/var4.json
+/FloorGAN/json/var1.json
+/FloorGAN/json/var2.json
+/FloorGAN/json/var3.json
+/FloorGAN/json/var4.json
