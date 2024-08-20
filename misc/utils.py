@@ -142,7 +142,7 @@ def draw_masks(masks, real_nodes, im_size=256):
 
         # pick color
         # print(ID_COLOR)
-        color = ID_COLOR[nd]
+        color = ID_COLOR[nd+1]
         r, g, b = webcolors.hex_to_rgb(color)
 
         # set drawer
